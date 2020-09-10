@@ -1,0 +1,120 @@
+body {
+  background: #fff9e6
+}
+
+h1, h2 {
+  color: #b38600;
+  font-family: arial;
+}
+
+h1 {
+  font-size: 40px;
+}
+
+h2 {
+  font-size: 35px;
+}
+
+a {
+  color: #664d00;
+  font-family: arial;
+  font-size: 25px;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #b38600;
+}
+
+@media (max-width: 1440px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+    margin: 40px auto;
+  }
+}
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+    margin: 40px auto;
+  }
+}
+
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+      margin: 40px auto;
+  }
+}
+
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+      margin: 40px auto;
+  }
+}
+
+.card-main, .card-other {
+  background-color: white;
+  padding: 40px;
+  box-shadow: 0px 10px 30px rgba(0,0,0,0.3);
+  border-radius: 4px;
+  margin: 20px 0px;
+  text-align: center;
+  color: #664d00;
+  font-family: arial;
+  font-size: 20px;
+}
+
+.card-main {
+  padding: 40px;
+}
+
+.card-other {
+  padding: 20px;
+}
+
+.img-circle {
+  border-radius: 50%;
+}
+
+.btn-brown {
+  background-color: #664d00;
+  color: #fff9e6;
+  padding: 15px 20px;
+  border-radius: 4px;
+  line-height: 3;
+}
+
+.btn-brown:hover {
+  background-color: red;
+  color: white;
+  transition-duration: 0.6s;
+}
+
+#list-no-bullets {
+  list-style-type: none;
+  padding-left: 0px;
+}
+
+.list-inline {
+  list-style: none;
+  padding-left: 0px;
+}
+
+.list-inline li {
+  display: inline;
+  padding: 20px;
+}
+.list-inline i {
+  font-size: 50px;
+  color: rgb(230, 230, 230);
+}
+.list-inline i:hover {
+  color: #664d00;
+}
